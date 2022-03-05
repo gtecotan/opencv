@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import utils.transport
+import utils.session
 import os
 import argparse
 import logging
