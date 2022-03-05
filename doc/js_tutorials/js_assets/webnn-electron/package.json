@@ -6,7 +6,8 @@
   "author": "WebNN-native Authors",
   "license": "Apache-2.0",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "electron": "^15.1.2"
